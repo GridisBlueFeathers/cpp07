@@ -23,4 +23,7 @@ int main() {
 	Array<int> c = a;
 	for (int i = 0; i < 5; i++)
 		std::cout << "c" << c[i] << std::endl;
+
+	const Array<int> d(5);
+	std::cout << d[0] << std::endl;
 }
